@@ -87,6 +87,9 @@ class Engineer(Person):
 
 
 class Admin(Person):
+    """
+    Класс описывающий административный состав
+    """
     def __init__(self, name, age, salary, role):
         """
         Инициализация класса Admin
